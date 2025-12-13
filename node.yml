@@ -1,0 +1,27 @@
+master_nodes:
+  - name: "master"
+    ip: "0.0.2.1"
+
+replica_nodes:
+  - name: "replica1"
+    ip: "0.0.0.1"
+  - name: "replica2"
+    ip: "0.0.0.2"
+  - name: "replica3"
+    ip: "0.0.0.3"
+  #- name: "replica4"
+  #  ip: "0.0.0.4"
+  #- name: "replica5"
+  #  ip: "0.0.0.5"
+
+client_nodes:
+  - name: "client1"
+    ip: "0.0.1.1"
+  - name: "client2"
+    ip: "0.0.1.2"
+  - name: "client3"
+    ip: "0.0.1.3"
+  #- name: "client4"
+  #  ip: "0.0.1.4"
+  #- name: "client5"
+  #  ip: "0.0.1.5"

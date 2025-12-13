@@ -1,0 +1,43 @@
+{
+    "nodes": [
+            {
+                "node_address": "ec2-0-0-0-0.region.compute.amazonaws.com",
+                "user": "ubuntu",
+                "key_path": "~/.ssh/example-key.pem",
+                "alias": "master",
+                "roles": "master",
+                "server_ip": "0.0.0.0"
+            },
+            {
+                "node_address": "ec2-0-0-0-0.region.compute.amazonaws.com",
+                "user": "ubuntu",
+                "key_path": "~/.ssh/example-key.pem",
+                "alias": "comp1",
+                "roles": "replica"
+            },
+            {
+                "node_address": "ec2-0-0-0-0.region.compute.amazonaws.com",
+                "user": "ubuntu",
+                "key_path": "~/.ssh/example-key.pem",
+                "alias": "comp2",
+                "roles": "replica"
+            },
+            {
+                "node_address": "ec2-0-0-0-0.region.compute.amazonaws.com",
+                "user": "ubuntu",
+                "key_path": "~/.ssh/example-key.pem",
+                "alias": "comp3",
+                "roles": "replica"
+            },
+            {
+                "node_address": "ec2-0-0-0-0.region.compute.amazonaws.com",
+                "user": "ubuntu",
+                "key_path": "~/.ssh/example-key.pem",
+                "alias": "client1",
+                "roles": "client"
+            }
+        ],
+    "exp":5,
+    "protocol": "paxos",
+    "config_file":"aws.conf"
+}
